@@ -16,7 +16,7 @@ exports.bookinstance_create_get = asyncHandler(async (req, res, next) => {
     res.send('NOT IMPLEMENTED: BookInstance create GET');
 });
 
-//Display BookInstance create on POST
+//Handle BookInstance create on POST
 exports.bookinstance_create_post = asyncHandler(async (req, res, next) => {
     res.send('NOT IMPLEMENTED: BookInstance create POST');
 });
@@ -26,7 +26,7 @@ exports.bookinstance_delete_get = asyncHandler(async (req, res, next) => {
     res.send('NOT IMPLEMENTED: BookInstance delete GET');
 });
 
-//Display BookInstance delete on POST
+//Handle BookInstance delete on POST
 exports.bookinstance_delete_post = asyncHandler(async (req, res, next) => {
     res.send('NOT IMPLEMENTED: BookInstance delete POST');
 });
@@ -36,7 +36,7 @@ exports.bookinstance_update_get = asyncHandler(async (req, res, next) => {
     res.send('NOT IMPLEMENTED: BookInstance update GET');
 });
 
-//Display BookInstance update on POST
+//Handle BookInstance update on POST
 exports.bookinstance_update_post = asyncHandler(async (req, res, next) => {
     res.send('NOT IMPLEMENTED: BookInstance update POST');
 });
