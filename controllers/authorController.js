@@ -11,7 +11,7 @@ exports.author_detail = asyncHandler(async (req, res, next) => {
     res.send(`NOT IMPLEMENTED: Author detail: ${req.params.id}`);
 });
 
-//Display Author create from on GET
+//Display Author create form on GET
 exports.author_create_get = asyncHandler(async (req, res, next) => {
     res.send('NOT IMPLEMENTED: Author create GET');
 });
