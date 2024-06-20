@@ -11,7 +11,7 @@ exports.book_list = asyncHandler(async (req, res, next) => {
 });
 
 //Display detail page for specific book
-exports.book_detail = asyncHandler(async (req, res, next) = {
+exports.book_detail = asyncHandler(async (req, res, next) => {
     res.send(`NOT IMPLEMENTED: Book detail: ${req.params.id}`);
 });
 
